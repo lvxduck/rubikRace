@@ -16,7 +16,7 @@ class _SplashState extends State<Splash> {
   void initState() {
     Future.delayed(Duration(seconds: 2),(){
       Navigator.of(context)?.pushNamed(
-          RouteGenerator.homePage
+          RouteGenerator.rubikRaceHome
       );
     });
     super.initState();
