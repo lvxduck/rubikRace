@@ -6,8 +6,9 @@ class TitleRubik extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var size=MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 43, vertical: 23),
+      padding: EdgeInsets.symmetric(horizontal: 43, vertical: 23),
       child: RichText(
         text: TextSpan(
             children: [
